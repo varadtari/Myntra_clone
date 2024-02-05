@@ -1,0 +1,137 @@
+* {
+margin:0;
+padding:0;
+font-family: Assistant,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height :80px;
+    background-color: #ffff;
+    border-bottom: 1px solid rgb(234, 234, 233);
+    width:100%;
+}
+.myntra_home{
+   height: 45px; 
+}
+.logo-cnt{
+    margin-left: 2%;
+}
+.action-bar{
+    margin-right: 2%;
+}
+.search-bar{
+    margin-left: 4%;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    flex-grow: 1;
+}
+.search_input{
+    width: 300px;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    font-size: 14px;
+    height: 40px;
+    background: #f5f5f6;
+    color: #696e79;
+}
+.search_icon{
+    height: 20px;
+    box-sizing: content-box;
+    padding: 10px;
+    background: #f5f5f6;
+    color: #696e79;
+    border-radius: 4px 0 0 4px;
+}
+.nav-bar{
+    margin-left: 2%;
+    display: flex;
+    min-width: 515px;
+    justify-content: space-evenly;
+}
+.nav-bar a{
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-transform: uppercase;
+    padding: 29px 0;
+    
+}
+.nav-bar a:hover{
+ border-bottom:2px solid yellow;
+}
+.nav-bar a sup{
+    color:red;
+    font-size: 10px;
+}
+.action-bar{
+  min-width: 200px;  
+    display: flex;
+    justify-content: space-evenly;
+}
+.action-container{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+}
+
+/* Main Content*/
+
+.img-cnt{
+    margin: 40px 0;
+}
+
+.img-cnt img {
+width:100%;
+}
+.category-headings{
+    
+        text-transform: uppercase;
+        color: #3e4152;
+                letter-spacing: .15em;
+        font-size: 1.8em;
+        margin: 50px 0 10px 30px;
+        max-height: 5em;
+        font-weight: 700;
+    
+}
+.category-items{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale-item{
+    padding: 10px;
+    width:250px;
+}
+.footer-cnt{
+    padding: 30px 0 40px 0;
+    background: #FAFBFC;
+}
+.footer-column a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+padding: 14px 0 5px 0;
+}
+.footer-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-cnt{
+display: flex;
+justify-content: space-evenly;
+}
+.desktop-copyright{
+    color: #94969f;
+    margin-left: 80%;
+}
